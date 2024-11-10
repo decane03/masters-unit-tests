@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "lab1": "pnpm --filter lab1 run test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
