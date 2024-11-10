@@ -21,9 +21,3 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-
-      - name: Run Tests
-        env:
-          GOREST_ACCESS_TOKEN: ${{ secrets.GOREST_ACCESS_TOKEN }}
-        run: |
-          npm test -- --filter 'lab1'

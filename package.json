@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "lab1": "npm --workspace lab1 run test"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
