@@ -1,0 +1,16 @@
+{
+  "name": "masters-unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  },
+  "dependencies": {
+    "mtrx": "^0.1.6"
+  }
+}
