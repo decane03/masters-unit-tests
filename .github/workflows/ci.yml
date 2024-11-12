@@ -26,6 +26,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Give permissions to Mocha
+        run: chmod +x ./node_modules/.bin/mocha
+
       - name: Run Tests
         run: |
           npm run lab1
