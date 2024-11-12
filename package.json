@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lab1": "npm --prefix lab1 run test"
+    "lab1": "npm --prefix lab1 run test",
+    "lab2": "npm --prefix lab2 run test"
   },
   "keywords": [],
   "author": "",
