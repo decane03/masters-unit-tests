@@ -15,6 +15,8 @@
     "mocha": "^10.8.2"
   },
   "dependencies": {
-    "mtrx": "^0.1.6"
+    "@types/sinon-chai": "^4.0.0",
+    "mtrx": "^0.1.6",
+    "sinon": "^19.0.2"
   }
 }
