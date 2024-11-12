@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lab1": "npm --prefix lab1 run test",
-    "lab2": "npm --prefix lab2 run test"
+    "lab2": "npm --prefix lab2 run test",
+    "lab3": "npm --prefix lab3 run test"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,9 @@
     "mocha": "^10.8.2"
   },
   "dependencies": {
-    "mtrx": "^0.1.6"
+    "@types/sinon-chai": "^4.0.0",
+    "mtrx": "^0.1.6",
+    "sinon": "^19.0.2",
+    "sinon-chai": "^4.0.0"
   }
 }
