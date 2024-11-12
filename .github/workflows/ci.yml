@@ -32,3 +32,4 @@ jobs:
       - name: Run Tests
         run: |
           npm run lab1
+          npm run lab2
