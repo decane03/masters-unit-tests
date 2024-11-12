@@ -13,7 +13,6 @@ describe('Mtrx Operations', () => {
             [4, 5, 6],
             [7, 8, 9]
         ]);
-
         const result = Mtrx.add(m, n);
 
         const expected = new Mtrx([
@@ -26,7 +25,6 @@ describe('Mtrx Operations', () => {
 
     it('Matrix scalar multiplication', () => {
         const m = new Mtrx([[1, 0, 0], [0, 1, 0], [0, 0, 1]]);
-
         const result = Mtrx.mul(m, 3);
 
         const expected = new Mtrx([
@@ -40,7 +38,6 @@ describe('Mtrx Operations', () => {
     it('Matrix multiplication', () => {
         const m = new Mtrx([[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
         const n = new Mtrx([[9, 8, 7], [6, 5, 4], [3, 2, 1]]);
-
         const result = Mtrx.mul(m, n);
 
         const expected = new Mtrx([
@@ -53,7 +50,6 @@ describe('Mtrx Operations', () => {
 
     it('Matrix division', () => {
         const n = new Mtrx([[4, 6, 8], [10, 12, 14], [16, 18, 20]]);
-
         const result = Mtrx.div(n, 2);
 
         const expected = new Mtrx([
